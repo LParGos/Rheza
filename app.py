@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 
 # Memuat model
-svm_model_filename = 'E:/1Tgs kuliah/Machine learning/uas/DatasetSupervised/svm.pkl'
+svm_model_filename = 'https://github.com/LParGos/Rheza/blob/main/LR.pkl'
 svm_model = joblib.load(svm_model_filename)
 
 lr_model_filename = 'E:/1Tgs kuliah/Machine learning/uas/DatasetSupervised/LR.pkl'
