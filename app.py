@@ -2,10 +2,10 @@ import streamlit as st
 import joblib
 
 # Memuat model
-svm_model_filename = 'https://github.com/LParGos/Rheza/blob/main/LR.pkl'
+svm_model_filename = 'svm.pkl'
 svm_model = joblib.load(svm_model_filename)
 
-lr_model_filename = 'https://github.com/LParGos/Rheza/blob/main/svm.pkl'
+lr_model_filename = 'LR.pkl'
 lr_model = joblib.load(lr_model_filename)
 
 # Aplikasi Streamlit
